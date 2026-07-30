@@ -18,23 +18,35 @@ export function Timeline({ onVideo }: { onVideo: (src: string, title: string) =>
           {timeline.map((entry, i) => (
             <motion.li
               key={entry.title}
-              initial={{ opacity: 0, y: 44 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 44, filter: "blur(10px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true, amount: 0.35 }}
-              transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+              transition={{ duration: entry.slow ? 2.4 : 1.2, ease: [0.16, 1, 0.3, 1] }}
               className={`relative pl-10 sm:w-1/2 sm:pl-0 ${
                 i % 2 === 0 ? "sm:pr-12 sm:text-right" : "sm:ml-auto sm:pl-12"
               }`}
             >
               <span
-                className={`absolute left-[0.42rem] top-2 size-2.5 rounded-full bg-blush shadow-[0_0_18px_2px_oklch(0.78_0.062_12/60%)] sm:left-auto ${
+                className={`absolute left-[0.42rem] top-2 size-2.5 rounded-full bg-lavender shadow-[0_0_20px_3px_oklch(0.7_0.14_305/60%)] sm:left-auto ${
                   i % 2 === 0 ? "sm:-right-[0.31rem]" : "sm:-left-[0.31rem]"
                 }`}
               />
               <div className="glass rounded-2xl p-5 sm:p-7">
-                <p className="text-[0.62rem] uppercase tracking-[0.34em] text-blush/70">{entry.date}</p>
+                <p className="text-[0.62rem] uppercase tracking-[0.34em] text-lavender/70">{entry.date}</p>
                 <h3 className="mt-3 font-serif text-2xl text-cream sm:text-3xl">{entry.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{entry.description}</p>
+
+                {entry.quote ? (
+                  <motion.blockquote
+                    initial={{ opacity: 0, filter: "blur(8px)" }}
+                    whileInView={{ opacity: 1, filter: "blur(0px)" }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 2, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                    className="glow-violet mt-5 rounded-xl border border-lavender/20 bg-violet/15 px-5 py-4 text-left font-hand text-xl leading-snug text-cream sm:text-2xl"
+                  >
+                    “{entry.quote}”
+                  </motion.blockquote>
+                ) : null}
 
                 {entry.photo ? (
                   <img
