@@ -39,8 +39,19 @@ export function Section({
   className?: string;
 }) {
   return (
-    <section id={id} className={`relative z-10 px-5 py-24 sm:px-8 sm:py-32 ${className}`}>
-      <div className="mx-auto w-full max-w-6xl">{children}</div>
+    <section
+      id={id}
+      className={`section-seam relative z-10 px-5 py-24 sm:px-8 sm:py-32 ${className}`}
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 26, filter: "blur(10px)" }}
+        whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+        viewport={{ once: true, amount: 0.15 }}
+        transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
+        className="mx-auto w-full max-w-6xl"
+      >
+        {children}
+      </motion.div>
     </section>
   );
 }
