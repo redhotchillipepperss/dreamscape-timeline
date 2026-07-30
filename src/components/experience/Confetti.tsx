@@ -6,7 +6,8 @@ const COLORS = [
   "oklch(0.78 0.062 12)",
   "oklch(0.94 0.015 60)",
   "oklch(0.46 0.14 8)",
-  "oklch(0.62 0.12 20)",
+  "oklch(0.62 0.16 305)",
+  "oklch(0.82 0.075 300)",
 ];
 
 /** Soft, slow petal confetti — cheap enough for low-powered phones. */

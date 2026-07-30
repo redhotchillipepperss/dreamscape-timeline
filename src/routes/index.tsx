@@ -9,15 +9,19 @@ import { Timeline } from "@/components/experience/Timeline";
 import { Gallery } from "@/components/experience/Gallery";
 import { Videos } from "@/components/experience/Videos";
 import { LoveNotes } from "@/components/experience/LoveNotes";
-import { Reasons } from "@/components/experience/Reasons";
+import { PauseTime } from "@/components/experience/PauseTime";
+import { LittleThings } from "@/components/experience/LittleThings";
 import { MemoryJar } from "@/components/experience/MemoryJar";
 import { Scrapbook } from "@/components/experience/Scrapbook";
 import { Favorites } from "@/components/experience/Favorites";
 import { StarMap } from "@/components/experience/StarMap";
 import { SecretMessage } from "@/components/experience/SecretMessage";
 import { FloatingLove } from "@/components/experience/FloatingLove";
+import { Gratitude, FinalQuote } from "@/components/experience/Gratitude";
 import { Ending } from "@/components/experience/Ending";
 import { VideoLightbox } from "@/components/experience/VideoLightbox";
+import { CursorGlow } from "@/components/experience/CursorGlow";
+import { FloatingHearts } from "@/components/experience/FloatingHearts";
 import { hero } from "@/data/story";
 
 const title = "Happy Girlfriend's Day — For You";
@@ -54,6 +58,8 @@ function Index() {
   return (
     <MusicProvider>
       <Ambient />
+      <FloatingHearts />
+      <CursorGlow />
       <Landing open={landing} onBegin={() => setLanding(false)} />
 
       <main className="relative">
@@ -87,11 +93,14 @@ function Index() {
         <Gallery />
         <Videos onVideo={openVideo} />
         <LoveNotes />
-        <Reasons />
+        <PauseTime />
         <MemoryJar />
         <Scrapbook />
         <Favorites />
+        <LittleThings />
         <StarMap />
+        <Gratitude />
+        <FinalQuote />
         <Ending />
       </main>
 

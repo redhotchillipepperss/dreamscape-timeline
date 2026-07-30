@@ -284,3 +284,102 @@
     transform: scale(1.06);
   }
 }
+
+/* ---------- Purple layer (added, does not replace the rose palette) ---------- */
+
+:root {
+  --violet: oklch(0.36 0.14 300);
+  --plum: oklch(0.28 0.11 315);
+  --lavender: oklch(0.82 0.075 300);
+  --glow-violet: 0 0 55px -12px oklch(0.52 0.19 305 / 70%);
+  --glow-violet-soft: 0 0 140px -30px oklch(0.5 0.18 305 / 45%);
+}
+
+@theme inline {
+  --color-violet: var(--violet);
+  --color-plum: var(--plum);
+  --color-lavender: var(--lavender);
+}
+
+@utility glow-violet {
+  box-shadow: var(--glow-violet);
+}
+
+@utility glow-romance {
+  box-shadow:
+    0 0 45px -14px oklch(0.52 0.19 305 / 65%),
+    0 0 70px -18px oklch(0.55 0.16 8 / 45%);
+}
+
+@utility text-glow-violet {
+  text-shadow:
+    0 0 32px oklch(0.72 0.12 300 / 45%),
+    0 0 80px oklch(0.52 0.18 305 / 25%);
+}
+
+@utility section-seam {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: min(70rem, 92vw);
+    height: 1px;
+    transform: translateX(-50%);
+    pointer-events: none;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      oklch(0.72 0.12 300 / 22%),
+      oklch(0.78 0.062 12 / 20%),
+      transparent
+    );
+  }
+}
+
+@utility photo-emerge {
+  filter: sepia(0.55) contrast(1.05);
+}
+
+@keyframes float-up {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: var(--heart-opacity, 0.35);
+  }
+  85% {
+    opacity: var(--heart-opacity, 0.35);
+  }
+  100% {
+    transform: translate3d(var(--heart-drift, 20px), -115vh, 0) rotate(22deg);
+    opacity: 0;
+  }
+}
+
+@keyframes soft-bob {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@keyframes cursor-ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0.4);
+    opacity: 0.85;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(7);
+    opacity: 0;
+  }
+}
+
+html.has-custom-cursor,
+html.has-custom-cursor * {
+  cursor: none !important;
+}
