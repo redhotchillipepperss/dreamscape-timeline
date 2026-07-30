@@ -17,7 +17,7 @@ export function FloatingLove() {
       <button
         onClick={reveal}
         aria-label="Show a random I love you"
-        className="glass glow-rose fixed bottom-4 right-4 z-40 grid size-12 place-items-center rounded-full text-blush active:scale-95 sm:bottom-6 sm:right-6 sm:size-14"
+        className="glass glow-romance fixed bottom-4 right-4 z-40 grid size-12 place-items-center rounded-full text-blush active:scale-95 sm:bottom-6 sm:right-6 sm:size-14"
       >
         <Heart className="size-5 fill-rose/50" style={{ animation: "breathe 3s ease-in-out infinite" }} />
       </button>

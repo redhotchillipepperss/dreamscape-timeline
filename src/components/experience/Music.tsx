@@ -83,7 +83,7 @@ export function MusicCard() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.4 }}
       transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-      className="glass glow-rose mx-auto grid max-w-lg grid-cols-[auto_minmax(0,1fr)] items-center gap-5 rounded-3xl p-5 sm:p-7"
+      className="glass glow-romance mx-auto grid max-w-lg grid-cols-[auto_minmax(0,1fr)] items-center gap-5 rounded-3xl p-5 sm:p-7"
     >
       <button
         onClick={toggle}

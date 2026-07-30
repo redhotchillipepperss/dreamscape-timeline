@@ -50,7 +50,7 @@ export function Landing({ onBegin, open }: { onBegin: () => void; open: boolean 
               transition={{ delay: 3.1, duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
               whileTap={{ scale: 0.97 }}
               onClick={onBegin}
-              className="glass glow-rose mt-12 rounded-full px-9 py-4 text-xs uppercase tracking-[0.32em] text-cream transition-all duration-500 hover:bg-rose/25 active:bg-rose/25"
+              className="glass glow-romance mt-12 rounded-full px-9 py-4 text-xs uppercase tracking-[0.32em] text-cream transition-all duration-500 hover:bg-rose/25 active:bg-rose/25"
             >
               {hero.cta}
             </motion.button>
