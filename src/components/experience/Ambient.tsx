@@ -1,3 +1,4 @@
+import { motion, useScroll, useTransform } from "motion/react";
 import { useEffect, useState } from "react";
 import heroBg from "@/assets/hero-bg.jpg";
 
