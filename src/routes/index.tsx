@@ -58,6 +58,8 @@ function Index() {
   return (
     <MusicProvider>
       <Ambient />
+      <FloatingHearts />
+      <CursorGlow />
       <Landing open={landing} onBegin={() => setLanding(false)} />
 
       <main className="relative">
