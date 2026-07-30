@@ -91,11 +91,14 @@ function Index() {
         <Gallery />
         <Videos onVideo={openVideo} />
         <LoveNotes />
-        <Reasons />
+        <PauseTime />
         <MemoryJar />
         <Scrapbook />
         <Favorites />
+        <LittleThings />
         <StarMap />
+        <Gratitude />
+        <FinalQuote />
         <Ending />
       </main>
 
