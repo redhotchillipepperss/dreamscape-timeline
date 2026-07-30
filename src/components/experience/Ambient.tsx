@@ -63,7 +63,7 @@ export function Ambient() {
       {particles.map((p, i) => (
         <span
           key={i}
-          className="absolute rounded-full bg-blush"
+          className={`absolute rounded-full ${i % 3 === 0 ? "bg-lavender" : "bg-blush"}`}
           style={{
             left: `${p.x}%`,
             top: `${p.y}%`,
