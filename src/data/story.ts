@@ -94,7 +94,11 @@ export type GalleryPhoto = { src: string; caption: string; alt: string };
 export const gallery: GalleryPhoto[] = [
   { src: "/media/photos/firstselfie2.jpg", caption: "Our first selfie", alt: "A couple under warm street lights at night" },
   { src: "/media/photos/hereyes.jpg", caption: "Ohh god, those eyes", alt: "Silhouette of a couple at night" },
-  { src: "/media/photos/photobooth.jpg", caption: "Favorite pictures", alt: "Hands under string lights" },
+  { src: "/media/photos/photobooth.jpg", caption: "Favorite pictures 💗", alt: "Hands under string lights" },
+  { src: "/media/photos/fitcheck.jpg", caption: "First ever fitcheck", alt: "Hands under string lights" },
+  { src: "/media/photos/mycam.jpg", caption: "From goated cam 🗣", alt: "Hands under string lights" },
+
+
 ];
 
 export type VideoMemory = { title: string; note: string; src: string; poster: string };
@@ -116,7 +120,7 @@ export const videos: VideoMemory[] = [
     title: "birthday night",
     note: "i wish that day never ended",
     src: "/media/videos/birthday.mp4",
-    poster: memory2,
+    poster: "/media/photos/flower2.jpg",
   },
 ];
 
