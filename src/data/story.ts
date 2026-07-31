@@ -133,7 +133,7 @@ export const loveNotes: LoveNote[] = [
   },
   {
     title: "2:19 AM",
-    body: "I rewrote that message so many times, Divyangi 💗. Deleted it, typed it again, changed one word, deleted it again, hence you said "kaha gayab ho gaya😭" It was 2:19 in the morning and I remember my heart going stupidly fast when I finally pressed send. I still think I could have said it better. I probably always will. But I meant every single word of it. I love you so muchh divyangi💗.",
+    body: "I rewrote that message so many times, Divyangi 💗. Deleted it, typed it again, changed one word, deleted it again, hence you said 'kaha gayab ho gaya😭' It was 2:19 in the morning and I remember my heart going stupidly fast when I finally pressed send. I still think I could have said it better. I probably always will. But I meant every single word of it. I love you so muchh divyangi💗.",
   },
   {
     title: "June 6",
