@@ -158,7 +158,7 @@ export const pauseTime = {
     "I'd pause it every time you looked at me.",
     "Because those are the moments I never want to lose.",
   ],
-//  button: "One More Memory",
+  button: "One More Memory",
 };
 
 /** Editable — each click of "One More Memory" pulls one of these. */
@@ -256,16 +256,13 @@ export const scrapbook = [
   { caption: "our corner of the world", photo: memory2, rotate: 3 },
 ];
 
-/*
+
 export const favorites = [
   { label: "Songs that are ours", items: ["About You — The 1975", "The Man Who Sold The World — Nirvana", "Robbers — The 1975"] },
-  { label: "Movies we keep rewatching", items: ["Before Sunrise", "Call Me By Your Name", "La La Land"] },
-  { label: "Food that means us", items: ["Late-night noodles", "Anything from the festival stalls", "Anything you eat off my plate"] },
-  { label: "Dream destinations", items: ["Kyoto in spring", "A quiet coast in Italy", "Anywhere, honestly"] },
-  { label: "Nickname", items: ["Rawrokiebye — only I get to use it."] },
-  { label: "Favourite dates", items: ["21 March", "19 April, 2:19 AM", "6 June"] },
+  { label: "Dream destinations", items: ["In your arms, thats all i want rn"] },
+  { label: "Favourite dates", items: ["21 March", "19 April", "6 June", "7 june"] },
 ];
-*/
+
 
 export const starMessage = {
   title: "This one is us.",
