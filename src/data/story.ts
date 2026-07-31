@@ -163,14 +163,13 @@ export const pauseTime = {
 
 /** Editable — each click of "One More Memory" pulls one of these. */
 export const pausedMemories: string[] = [
-  "The first time we talked — a Nirvana story, and nothing was ever the same after it.",
-  "Dahanu Festival. 21 March. My hands would not stop shaking.",
   "Our first kiss, and the way the whole world went quiet.",
-  "Late-night calls where neither of us wanted to hang up first.",
-  "The day I realised I loved you — nothing dramatic, you were just being you.",
+  "The day I realised I loved you, nothing dramatic, you were just being you.",
   "The day you made me laugh until my stomach actually hurt.",
   "The random photo you sent for no reason that made my entire week.",
   "Every tiny, pointless moment that somehow became unforgettable.",
+  "Dahanu Festival. 21 March. My hands would not stop shaking.",
+
 ];
 
 /** "The Little Things" — floating cards. */
