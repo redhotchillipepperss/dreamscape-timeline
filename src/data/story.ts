@@ -92,7 +92,7 @@ export type GalleryPhoto = { src: string; caption: string; alt: string };
 
 /** Add as many as you like — the grid handles dozens. */
 export const gallery: GalleryPhoto[] = [
-  { src: "/home/salamanca/dreamscape-timeline/src/assets.firstselfie2", caption: "Our First Selfie", alt: "A couple under warm street lights at night" },
+  { src: "/home/salamanca/dreamscape-timeline/src/assets/firstselfie2.jpeg", caption: "Our First Selfie", alt: "A couple under warm street lights at night" },
   { src: memory3, caption: "Festival Memories", alt: "Two hands reaching for each other under fairy lights" },
   { src: memory1, caption: "Random Happy Days", alt: "Silhouette of a couple at night" },
   { src: memory3, caption: "Favorite Pictures", alt: "Hands under string lights" },
