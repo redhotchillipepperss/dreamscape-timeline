@@ -256,6 +256,7 @@ export const scrapbook = [
   { caption: "our corner of the world", photo: memory2, rotate: 3 },
 ];
 
+/*
 export const favorites = [
   { label: "Songs that are ours", items: ["About You — The 1975", "The Man Who Sold The World — Nirvana", "Robbers — The 1975"] },
   { label: "Movies we keep rewatching", items: ["Before Sunrise", "Call Me By Your Name", "La La Land"] },
@@ -264,6 +265,7 @@ export const favorites = [
   { label: "Nickname", items: ["Rawrokiebye — only I get to use it."] },
   { label: "Favourite dates", items: ["21 March", "19 April, 2:19 AM", "6 June"] },
 ];
+*/
 
 export const starMessage = {
   title: "This one is us.",
