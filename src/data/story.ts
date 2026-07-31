@@ -104,13 +104,13 @@ export const videos: VideoMemory[] = [
     title: "The way you laugh",
     note: "15 seconds I've watched a hundred times.",
     src: "/media/videos/mainclip.mp4",
-    poster: memory3,
+    poster: "/media/photos/hereyes.jpg",
   },
   {
     title: "Random date",
     note: "God you look soo pretty.",
     src: "/media/videos/market.mp4",
-    poster: memory1,
+    poster: "/media/photos/teddy.jpg",
   },
   {
     title: "birthday night",
@@ -154,7 +154,7 @@ export const pauseTime = {
     "I'd pause it every time you looked at me.",
     "Because those are the moments I never want to lose.",
   ],
-  button: "One More Memory",
+//  button: "One More Memory",
 };
 
 /** Editable — each click of "One More Memory" pulls one of these. */
@@ -171,7 +171,7 @@ export const pausedMemories: string[] = [
 
 /** "The Little Things" — floating cards. */
 export const littleThings: string[] = [
-  "The way you smile.",
+  "The way you smile, soo beautiful.",
   "The way you say my name.",
   "The random photos you send.",
   "The way you make bad days feel lighter.",
@@ -188,14 +188,12 @@ export const finalQuote = [
 
 export const memoryJar: string[] = [
   "The night we stayed up talking about nothing important and everything at once.",
-  "You falling asleep mid-call and insisting later that you didn't.",
-  "The song that came on at exactly the right moment.",
-  "Dahanu, and the walk where neither of us wanted to go home.",
+  "Dahanu, and the hug where neither of us wanted to go home.",
   "The way you looked at me across a crowd of people.",
   "Sharing one pair of headphones.",
   "Laughing so hard we had to stop walking.",
   "2:19 AM, and the first time you said it back.",
-  "That terrible meal we still talk about.",
+  "momos of 7th 🗣🗣.",
   "You texting me goodnight and then talking for two more hours.",
 ];
 
@@ -222,7 +220,6 @@ export const loveMessages: string[] = [
   "I'm so proud of you.",
   "You make me laugh like nobody else.",
   "I love the life we're building.",
-  "Rawrokiebye.",
   "Your happiness is my favourite thing.",
   "I love you more than yesterday.",
   "You feel like a song I never get tired of.",
