@@ -24,7 +24,7 @@ export const her = {
 };
 
 export const hero = {
-  title: "Happy Girlfriend's Day, Divyangi ❤️",
+  title: "Happy Girlfriend's Day, Divyangi 💗",
   subtitle: "For the girl who turned an ordinary story reply into the best part of my life.",
   cta: "Begin Our Story",
 };
@@ -52,41 +52,39 @@ export const timeline: TimelineEntry[] = [
     date: "The very beginning",
     title: "The story reply that changed everything",
     description:
-      "You had posted \"The Man Who Sold The World\". I replied without overthinking it — and somehow that tiny, ordinary message rearranged my entire life.",
-    quote: "I'm so glad you knew Nirvana. Hail Kurt Cobain.",
-    photo: memory1,
+      "You had posted a reel about nirvana. I replied without overthinking it — and somehow that tiny, ordinary message rearranged my entire life.",
+    quote: "I'm soo fucking glad i knew nirvana",
+    photo: memory3,
+    
   },
   {
     date: "21 March · Dahanu Festival",
     title: "The first time I saw you",
     description:
-      "I still remember how nervous I was before meeting you. I kept wondering… \"What if she doesn't like me?\" I tried acting normal, but inside I was overthinking every little thing. And when I finally saw you… everything became so much easier. The only thing I wanted in that moment was to hold your hand.",
+      "I still remember how nervous I was before meeting you. I kept wondering… \"What if she doesn't like me?\" I tried acting normal. You were and are soo pretty. The only thing i wanted to do was hold your hands at that time",
     photo: memory3,
   },
   {
     date: "19 April 2026 · 2:19 AM",
     title: "The Night I Asked You",
     description:
-      "I still remember how nervous I was while typing that message. I kept rewriting it again and again because nothing felt good enough. Even today… I still feel I could've done better. But if there's one thing I know — every single word came from my heart.",
+      "I still remember how nervous I was while typing that message. i could no more wait for us to be together. Even today… I still feel I could've done better. But if there's one thing I know, every single word came from my heart. I lovvee youu so much 💗",
+    photo: memory1,
+  
   },
   {
     date: "6 June",
     title: "Our First Kiss",
     description:
       "I still remember 6th June. The moment everything else disappeared. You looked so unbelievably beautiful. Your smile, your eyes, the way you looked at me… I don't think I'll ever find words beautiful enough to describe how stunning you were. If I could relive one moment forever, it would be that one.",
-    photo: memory2,
+    //photo: memory2,
     slow: true,
   },
-  {
-    date: "Somewhere in between",
-    title: "The late-night calls",
-    description:
-      "Half-asleep, talking about nothing, neither of us willing to hang up first. Those hours are still my favourite place to go back to.",
-  },
+  
   {
     date: "Right now",
     title: "Today",
-    description: "Still choosing you, Rawrokiebye. Still amazed that you chose me back.",
+    description: "Still choosing you, Divyangi. Still amazed that you chose me back.",
   },
 ];
 
