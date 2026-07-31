@@ -84,7 +84,7 @@ export const timeline: TimelineEntry[] = [
   {
     date: "Right now",
     title: "Today",
-    description: "Still choosing you, Divyangi. Still amazed that you chose me back.",
+    description: "Still choosing you, Divyangi. Still amazedd that you chose me backkk.",
   },
 ];
 
@@ -92,12 +92,10 @@ export type GalleryPhoto = { src: string; caption: string; alt: string };
 
 /** Add as many as you like — the grid handles dozens. */
 export const gallery: GalleryPhoto[] = [
-  { src: memory1, caption: "Our First Selfie", alt: "A couple under warm street lights at night" },
+  { src: "/home/salamanca/dreamscape-timeline/src/assets.firstselfie2", caption: "Our First Selfie", alt: "A couple under warm street lights at night" },
   { src: memory3, caption: "Festival Memories", alt: "Two hands reaching for each other under fairy lights" },
-  { src: memory2, caption: "Us", alt: "Two coffee cups by a rainy window at night" },
   { src: memory1, caption: "Random Happy Days", alt: "Silhouette of a couple at night" },
   { src: memory3, caption: "Favorite Pictures", alt: "Hands under string lights" },
-  { src: memory2, caption: "Late Night Memories", alt: "Warm café window at night" },
 ];
 
 export type VideoMemory = { title: string; note: string; src: string; poster: string };
