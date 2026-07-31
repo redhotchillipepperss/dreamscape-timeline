@@ -5,7 +5,7 @@ import { Section, SectionHeading } from "./Section";
 export function Favorites() {
   return (
     <Section id="favorites">
-      <SectionHeading eyebrow="all the details" title="The things that are so you" />
+      <SectionHeading eyebrow="all the details" title="" />
 
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {favorites.map((group, i) => (

@@ -54,7 +54,7 @@ export const timeline: TimelineEntry[] = [
     description:
       "You had posted a reel about nirvana. I replied without overthinking it — and somehow that tiny, ordinary message rearranged my entire life.",
     quote: "I'm soo fucking glad i knew nirvana",
-    photo: memory3,
+  //  photo: memory3,
     
   },
   {
@@ -62,14 +62,14 @@ export const timeline: TimelineEntry[] = [
     title: "The first time I saw you",
     description:
       "I still remember how nervous I was before meeting you. I kept wondering… \"What if she doesn't like me?\" I tried acting normal. You were and are soo pretty. The only thing i wanted to do was hold your hands at that time",
-    photo: memory3,
+  //  photo: memory3,
   },
   {
     date: "19 April 2026 · 2:19 AM",
     title: "The Night I Asked You",
     description:
       "I still remember how nervous I was while typing that message. i could no more wait for us to be together. Even today… I still feel I could've done better. But if there's one thing I know, every single word came from my heart. I lovvee youu so much 💗",
-    photo: memory1,
+  //  photo: memory1,
   
   },
   {
@@ -250,15 +250,24 @@ export const loveMessages: string[] = [
 ];
 
 export const scrapbook = [
-  { caption: "us, unposed", photo: memory1, rotate: -3 },
-  { caption: "dahanu", photo: memory2, rotate: 2.5 },
-  { caption: "hand in hand", photo: memory3, rotate: -1.5 },
-  { caption: "our corner of the world", photo: memory2, rotate: 3 },
+  { caption: "", photo: "/media/photos/her1.jpg", rotate: -3 },
+  { caption: "", photo: "/media/photos/her2.jpg", rotate: 2.5 },
+  { caption: "", photo: "/media/photos/her3.jpg", rotate: -2 },
+  { caption: "", photo: "/media/photos/her4.jpg", rotate: -1 },
+  { caption: "", photo: "/media/photos/her5.jpg", rotate: 2 },
+  { caption: "", photo: "/media/photos/her6.jpg", rotate: -3 },
+  { caption: "", photo: "/media/photos/her7.jpg", rotate: 2.5 },
+  { caption: "", photo: "/media/photos/her8.jpg", rotate: -1},
+  { caption: "", photo: "/media/photos/her9.jpg", rotate: 2 },
+  { caption: "", photo: "/media/photos/her10.jpg", rotate: -3 },
+
+  
+  
 ];
 
 
 export const favorites = [
-  { label: "Songs that are ours", items: ["About You — The 1975", "The Man Who Sold The World — Nirvana", "Robbers — The 1975"] },
+  { label: "Songs that are ours", items: ["About You — The 1975", "The Man Who Sold The World — Nirvana", "Its been so long - The Living Tombstone"] },
   { label: "Dream destinations", items: ["In your arms, thats all i want rn"] },
   { label: "Favourite dates", items: ["21 March", "19 April", "6 June", "7 june"] },
 ];
