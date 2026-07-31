@@ -93,9 +93,8 @@ export type GalleryPhoto = { src: string; caption: string; alt: string };
 /** Add as many as you like — the grid handles dozens. */
 export const gallery: GalleryPhoto[] = [
   { src: "/media/photos/firstselfie2.jpg", caption: "Our First Selfie", alt: "A couple under warm street lights at night" },
-  { src: memory3, caption: "Festival Memories", alt: "Two hands reaching for each other under fairy lights" },
-  { src: memory1, caption: "Random Happy Days", alt: "Silhouette of a couple at night" },
-  { src: memory3, caption: "Favorite Pictures", alt: "Hands under string lights" },
+  { src: "/media/photos/raincoat.jpg", caption: "Random Happy Days", alt: "Silhouette of a couple at night" },
+  { src: "/media/photos/photobooth.jpg", caption: "Favorite Pictures", alt: "Hands under string lights" },
 ];
 
 export type VideoMemory = { title: string; note: string; src: string; poster: string };
@@ -103,20 +102,20 @@ export type VideoMemory = { title: string; note: string; src: string; poster: st
 export const videos: VideoMemory[] = [
   {
     title: "The way you laugh",
-    note: "Twelve seconds I've watched a hundred times.",
-    src: "/media/videos/laugh.mp4",
+    note: "15 seconds I've watched a hundred times.",
+    src: "/media/videos/mainclip.mp4",
     poster: memory3,
   },
   {
-    title: "Dahanu, 21 March",
-    note: "The day my hands wouldn't stop shaking.",
-    src: "/media/videos/drive.mp4",
+    title: "Random date",
+    note: "God you look soo pretty.",
+    src: "/media/videos/market.mp4",
     poster: memory1,
   },
   {
-    title: "2:19 AM",
-    note: "The night I finally said it.",
-    src: "/media/videos/rain.mp4",
+    title: "birthday night",
+    note: "i wish that day never ended",
+    src: "/media/videos/birthday.mp4",
     poster: memory2,
   },
 ];
@@ -126,7 +125,7 @@ export type LoveNote = { title: string; body: string };
 export const loveNotes: LoveNote[] = [
   {
     title: "The Story Reply That Changed Everything",
-    body: "I wasn't trying to start anything. You posted The Man Who Sold The World and I typed \"I'm so glad you knew Nirvana. Hail Kurt Cobain.\" and put my phone down like it was nothing. It was nothing. That's the part that still gets me — the biggest thing that ever happened to me looked exactly like nothing while it was happening. If I had scrolled past, I'd never have known what I was missing. I think about that more often than I should.",
+    body: "I wasn't trying to start anything. You posted a reel about nirvana and I typed \"the man who sold the world.\" and put my phone down like it was nothing. It was nothing. That's the part that still gets me — the biggest thing that ever happened to me looked exactly like nothing while it was happening. If I had scrolled past, I'd never have known what I was missing. The man who brought us together",
   },
   {
     title: "The Girl From Dahanu",
