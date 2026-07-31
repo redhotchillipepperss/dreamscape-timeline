@@ -250,16 +250,20 @@ export const loveMessages: string[] = [
 ];
 
 export const scrapbook = [
-  { caption: "", photo: "/media/photos/her1.jpg", rotate: -3 },
-  { caption: "", photo: "/media/photos/her2.jpg", rotate: 2.5 },
-  { caption: "", photo: "/media/photos/her3.jpg", rotate: -2 },
-  { caption: "", photo: "/media/photos/her4.jpg", rotate: -1 },
-  { caption: "", photo: "/media/photos/her5.jpg", rotate: 2 },
   { caption: "", photo: "/media/photos/her6.jpg", rotate: -3 },
   { caption: "", photo: "/media/photos/her7.jpg", rotate: 2.5 },
+  { caption: "", photo: "/media/photos/her3.jpg", rotate: -2 },
+  { caption: "", photo: "/media/photos/her4.jpg", rotate: -1 },
+  { caption: "", photo: "/media/photos/her1.jpg", rotate: 2 },
+  { caption: "", photo: "/media/photos/her5.jpg", rotate: -3 },
+  { caption: "", photo: "/media/photos/her2.jpg", rotate: 2.5 },
   { caption: "", photo: "/media/photos/her8.jpg", rotate: -1},
   { caption: "", photo: "/media/photos/her9.jpg", rotate: 2 },
   { caption: "", photo: "/media/photos/her10.jpg", rotate: -3 },
+  { caption: "lovedd that moment", photo: "/media/photos/whendrunk.jpg", rotate: -3 },
+
+
+
 
   
   
@@ -280,7 +284,7 @@ export const starMessage = {
 
 export const secretMessage = {
   hint: "Some things are only for you.",
-  title: "You found it, Rawrokiebye.",
+  title: "You found it!.",
   body: "I knew you would. You always notice the things other people walk past. That's one of the thousand reasons I love you — and I'm going to keep telling you about the other nine hundred and ninety-nine for as long as you'll let me.",
 };
 
@@ -298,5 +302,5 @@ export const gratitude = {
 
 export const ending = {
   lines: ["If I had to choose again...", "It would always be you."],
-  closing: "Happy Girlfriend's Day, Divyangi ❤️",
+  closing: "Happy Girlfriend's Day, Divyangi 💗",
 };
