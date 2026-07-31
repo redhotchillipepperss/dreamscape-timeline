@@ -30,10 +30,10 @@ export const hero = {
 };
 
 export const song = {
-  title: "About You",
-  artist: "The 1975",
+  title: "Something about you",
+  artist: "Eyedress"
   /** Put your mp3 at public/media/audio/about-you.mp3 */
-  src: "/media/audio/about-you.mp3",
+  src: "/media/audio/eyedress.mp3",
   prompt: "Play this before reading.",
 };
 
