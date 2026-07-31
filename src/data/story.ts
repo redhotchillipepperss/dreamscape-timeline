@@ -129,20 +129,17 @@ export const loveNotes: LoveNote[] = [
   },
   {
     title: "The Girl From Dahanu",
-    body: "21 March. I changed my shirt three times, walked around the festival twice before you got there, and told myself to just be normal. Then you showed up and I forgot the entire script. You were standing there and my only coherent thought was that I wanted to hold your hand. That's it. Everything I'd been panicking about for days turned out to be nothing, because being near you was the easiest thing I've ever done.",
+    body: "21 March. I changed my shirt three times and yk I don't have any😭. Then you showed up and I forgot the entire script. You looked so gorgeous more than i could imagine. You were standing there and my only coherent thought was that I wanted to hold your hand, which too I successfully did the 2nd day for which I'm so glad.",
   },
   {
     title: "2:19 AM",
-    body: "I rewrote that message so many times, Divyangi ❤️. Deleted it, typed it again, changed one word, deleted it again. It was 2:19 in the morning and I remember my heart going stupidly fast when I finally pressed send. I still think I could have said it better. I probably always will. But I meant every single word of it, and I'd send it again a thousand times.",
+    body: "I rewrote that message so many times, Divyangi 💗. Deleted it, typed it again, changed one word, deleted it again, hence you said "kaha gayab ho gaya😭" It was 2:19 in the morning and I remember my heart going stupidly fast when I finally pressed send. I still think I could have said it better. I probably always will. But I meant every single word of it. I love you so muchh divyangi💗.",
   },
   {
     title: "June 6",
-    body: "I don't have good enough words for that day and I've tried. You looked at me and the rest of the world just stopped mattering. Your smile, your eyes, the way you were looking at me — I keep going back to it. If someone told me I could keep exactly one moment forever and lose the rest, I know which one I'd pick without thinking.",
+    body: "I don't have good enough words for that day and I've tried. You looked at me and the rest of the world just stopped mattering. Your smile, your eyes, the way you were looking at me, I keep going back to it. If someone told me I could keep exactly one moment forever and lose the rest, I know which one I'd pick without thinking.",
   },
-  {
-    title: "Dear Rawrokiebye",
-    body: "Nobody else gets to call you that, and I like that a lot more than I let on. You are the person I want to tell things to first — the good news, the bad news, the completely pointless news at 1am. Thank you for being patient with me, for laughing at my terrible jokes, for making days that should have been ordinary into ones I still remember. I love you. Quietly and loudly and all the time.",
-  },
+  
 ];
 
 /** "If We Could Pause Time" — the slow, quiet section. */
@@ -204,7 +201,7 @@ export const memoryJar: string[] = [
 
 /** Random floating "I love you" messages. */
 export const loveMessages: string[] = [
-  "I love you, Divyangi ❤️",
+  "I love you, Divyangi 💗",
   "I was just thinking about you.",
   "You're my favourite person.",
   "I'd choose you again. Immediately.",
