@@ -108,7 +108,7 @@ export const videos: VideoMemory[] = [
     title: "The way you laugh",
     note: "15 seconds I've watched a hundred times.",
     src: "/media/videos/mainclip.mp4",
-    poster: "/media/photos/hereyes.jpg",
+    poster: "/media/photos/thumbn.jpg",
   },
   {
     title: "Random date",
@@ -260,8 +260,6 @@ export const scrapbook = [
   { caption: "", photo: "/media/photos/her8.jpg", rotate: -1},
   { caption: "", photo: "/media/photos/her9.jpg", rotate: 2 },
   { caption: "", photo: "/media/photos/her10.jpg", rotate: -3 },
-  { caption: "lovedd that moment", photo: "/media/photos/whendrunk.jpg", rotate: -3 },
-
 
 
 
