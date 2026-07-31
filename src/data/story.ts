@@ -33,7 +33,7 @@ export const song = {
   title: "Something about you",
   artist: "Eyedress",
   /** Put your mp3 at public/media/audio/about-you.mp3 */
-  src: "/media/audio/eyedress.mp3",
+  src: "/media/audio/eyedre.mp3",
   prompt: "Play this before reading.",
 };
 
@@ -281,8 +281,8 @@ export const starMessage = {
 
 export const secretMessage = {
   hint: "Some things are only for you.",
-  title: "You found it!.",
-  body: "I knew you would. You always notice the things other people walk past. That's one of the thousand reasons I love you — and I'm going to keep telling you about the other nine hundred and ninety-nine for as long as you'll let me.",
+  title: "Some things are only for you, just like my..",
+  body: "Missing you soo bad, you wont be able to walk properly when we meet again 🥰🥰",
 };
 
 export const gratitude = {
