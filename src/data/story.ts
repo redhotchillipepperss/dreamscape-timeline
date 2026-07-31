@@ -92,9 +92,9 @@ export type GalleryPhoto = { src: string; caption: string; alt: string };
 
 /** Add as many as you like — the grid handles dozens. */
 export const gallery: GalleryPhoto[] = [
-  { src: "/media/photos/firstselfie2.jpg", caption: "Our First Selfie", alt: "A couple under warm street lights at night" },
-  { src: "/media/photos/raincoat.jpg", caption: "Random Happy Days", alt: "Silhouette of a couple at night" },
-  { src: "/media/photos/photobooth.jpg", caption: "Favorite Pictures", alt: "Hands under string lights" },
+  { src: "/media/photos/firstselfie2.jpg", caption: "Our first selfie", alt: "A couple under warm street lights at night" },
+  { src: "/media/photos/hereyes.jpg", caption: "Ohh god, those eyes", alt: "Silhouette of a couple at night" },
+  { src: "/media/photos/photobooth.jpg", caption: "Favorite pictures", alt: "Hands under string lights" },
 ];
 
 export type VideoMemory = { title: string; note: string; src: string; poster: string };
